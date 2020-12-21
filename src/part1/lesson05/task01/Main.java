@@ -1,7 +1,5 @@
 package part1.lesson05.task01;
 
-import java.util.Arrays;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -17,26 +15,31 @@ public class Main {
 
         for ( int i =0; i<a.length;i++){
             for (int j=0;j<a[i].length;j++)
-           System.out.println(Arrays.deepToString(a));
+            System.out.print(""+a[i][j]+ "\t");
+
+         //  System.out.println(Arrays.deepToString(a));
 
         }
-
-
-        //System.out.print(""+a[i][j]+ "");
-        // System.out.println(a[0][4]);
-        //System.out.print(Arrays.toString(a));
-
-
-
-
-
-
-
-
-
-
 
 
 
     }
 }
+
+
+// System.out.println(a[0][4]);
+//System.out.print(Arrays.toString(a));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
